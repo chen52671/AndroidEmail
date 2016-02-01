@@ -15,7 +15,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.mail.browse.SpamWarningView
+<com.chen.mail.browse.SpamWarningView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/spam_warning"
     android:layout_width="match_parent"
@@ -62,4 +62,4 @@
         android:layout_alignParentBottom="true"
         android:background="@color/conversation_view_border_color" />
 
-</com.android.mail.browse.SpamWarningView>
+</com.chen.mail.browse.SpamWarningView>

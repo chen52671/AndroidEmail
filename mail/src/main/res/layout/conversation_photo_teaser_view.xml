@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) 2013 Google Inc. -->
-<com.android.mail.ui.ConversationPhotoTeaserView
+<com.chen.mail.ui.ConversationPhotoTeaserView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -61,4 +61,4 @@
         <include layout="@layout/teaser_right_edge" />
     </LinearLayout>
 
-</com.android.mail.ui.ConversationPhotoTeaserView>
+</com.chen.mail.ui.ConversationPhotoTeaserView>

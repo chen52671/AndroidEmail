@@ -19,7 +19,7 @@
 <!--
      The custom action bar view Gmail uses.
 -->
-<com.android.mail.ui.MailActionBarView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.chen.mail.ui.MailActionBarView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:orientation="horizontal" >
@@ -27,4 +27,4 @@
     <!-- View to display the title on pre-MR 1.1 devices -->
     <include layout="@layout/actionbar_legacy_title" />
 
-</com.android.mail.ui.MailActionBarView>
+</com.chen.mail.ui.MailActionBarView>

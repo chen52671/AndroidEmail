@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 
-<com.android.mail.ui.FolderListLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.chen.mail.ui.FolderListLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -26,4 +26,4 @@
         android:layout_height="match_parent"
         android:drawSelectorOnTop="false"
         android:fadingEdge="none"/>
-</com.android.mail.ui.FolderListLayout>
+</com.chen.mail.ui.FolderListLayout>

@@ -27,7 +27,7 @@
         android:layout_height="match_parent"
         android:visibility="gone">
 
-        <com.android.mail.compose.FromAddressSpinner
+        <com.chen.mail.compose.FromAddressSpinner
             android:id="@+id/from_picker"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>

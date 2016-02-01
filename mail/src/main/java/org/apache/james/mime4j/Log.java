@@ -16,7 +16,7 @@
 
 package org.apache.james.mime4j;
 
-import com.android.mail.utils.LogUtils;
+import com.chen.mail.utils.LogUtils;
 
 /**
  * Empty stub for the apache logging library.

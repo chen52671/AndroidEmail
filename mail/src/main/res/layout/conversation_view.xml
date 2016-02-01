@@ -18,13 +18,13 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <com.android.mail.browse.ConversationContainer
+    <com.chen.mail.browse.ConversationContainer
         android:id="@+id/conversation_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <!-- base WebView layer -->
-        <com.android.mail.browse.ConversationWebView
+        <com.chen.mail.browse.ConversationWebView
             android:id="@+id/webview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -63,9 +63,9 @@
 
         </FrameLayout>
 
-    </com.android.mail.browse.ConversationContainer>
+    </com.chen.mail.browse.ConversationContainer>
 
-    <com.android.mail.browse.ScrollIndicatorsView
+    <com.chen.mail.browse.ScrollIndicatorsView
         android:id="@+id/scroll_indicators"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -36,7 +36,7 @@
                 android:id="@+id/cc_label"
                 android:contentDescription="@string/cc"/>
 
-                <com.android.ex.chips.RecipientEditTextView
+                <com.chen.ex.chips.RecipientEditTextView
                     android:id="@+id/cc"
                     style="@style/RecipientEditTextViewStyle"
                     android:contentDescription="@string/cc"/>
@@ -61,7 +61,7 @@
                 android:id="@+id/bcc_label"
                 android:contentDescription="@string/bcc"/>
 
-            <com.android.ex.chips.RecipientEditTextView
+            <com.chen.ex.chips.RecipientEditTextView
                 android:id="@+id/bcc"
                 style="@style/RecipientEditTextViewStyle"
                 android:contentDescription="@string/bcc"/>

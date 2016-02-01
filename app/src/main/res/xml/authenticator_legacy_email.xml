@@ -21,7 +21,7 @@
 <!-- for the Account Manager. -->
 
 <account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
-    android:accountType="com.android.email"
+    android:accountType="com.chen.email"
     android:icon="@mipmap/ic_launcher_mail"
     android:smallIcon="@drawable/stat_notify_email"
     android:label="@string/exchange_name"

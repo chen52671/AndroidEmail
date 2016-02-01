@@ -19,7 +19,7 @@
     <!-- List of content provider uris for  -->
     <string-array name="account_providers" translatable="false">
         <!-- email account list -->
-        <item>content://com.android.email.provider/uiaccts</item>
+        <item>content://com.chen.email.provider/uiaccts</item>
     </string-array>
 
 </resources>

@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 
-<com.android.mail.ui.AccountItemView
+<com.chen.mail.ui.AccountItemView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
@@ -60,4 +60,4 @@
         android:textColor="@color/account_item_text_color"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-</com.android.mail.ui.AccountItemView>
+</com.chen.mail.ui.AccountItemView>

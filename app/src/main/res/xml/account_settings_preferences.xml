@@ -149,12 +149,12 @@
         android:key="account_policies"
         android:title="@string/account_settings_policies">
 
-        <com.android.email.activity.setup.PolicyListPreference
+        <com.chen.email.activity.setup.PolicyListPreference
             android:key="policies_enforced"
             android:title="@string/account_settings_enforced_label"
             android:summary="@string/account_settings_enforced_summary" />
 
-        <com.android.email.activity.setup.PolicyListPreference
+        <com.chen.email.activity.setup.PolicyListPreference
             android:key="policies_unsupported"
             android:title="@string/account_settings_unsupported_label"
             android:summary="@string/account_settings_unsupported_summary" />

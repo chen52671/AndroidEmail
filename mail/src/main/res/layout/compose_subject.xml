@@ -19,6 +19,7 @@
     style="@style/ComposeFieldLayout"
     android:layout_below="@id/cc_bcc_wrapper">
         <!-- Subject: localization cannot control what field pressing tab will bring the user to. This is controlled at runtime.  -->
-        <com.android.mail.compose.EnterSubject android:id="@+id/subject"
+        <com.chen.mail.compose.EnterSubject
+            android:id="@+id/subject"
             style="@style/ComposeSubjectView" />
 </RelativeLayout>

@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.android.email">
+    package="com.chen.email">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -22,31 +22,31 @@
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <permission
-        android:name="com.android.email.permission.READ_ATTACHMENT"
+        android:name="com.chen.email.permission.READ_ATTACHMENT"
         android:permissionGroup="android.permission-group.MESSAGES"
         android:protectionLevel="dangerous"
         android:label="@string/permission_read_attachment_label"
         android:description="@string/permission_read_attachment_desc"/>
     <uses-permission
-        android:name="com.android.email.permission.READ_ATTACHMENT"/>
+        android:name="com.chen.email.permission.READ_ATTACHMENT"/>
 
     <uses-permission
         android:name="android.permission.USE_CREDENTIALS"/>
 
     <!-- Grant permission to system apps to access provider (see provider below) -->
     <permission
-        android:name="com.android.email.permission.ACCESS_PROVIDER"
+        android:name="com.chen.email.permission.ACCESS_PROVIDER"
         android:protectionLevel="signature"
         android:label="@string/permission_access_provider_label"
         android:description="@string/permission_access_provider_desc"/>
     <uses-permission
-        android:name="com.android.email.permission.ACCESS_PROVIDER"/>
+        android:name="com.chen.email.permission.ACCESS_PROVIDER"/>
 
     <application
         android:name=".EmailApplication"
         android:icon="@mipmap/ic_launcher_mail"
         android:label="@string/app_name"
-        android:requiredAccountType="com.android.exchange,com.android.email"
+        android:requiredAccountType="com.android.exchange,com.chen.email"
         android:theme="@style/UnifiedEmailTheme"
         android:hardwareAccelerated="true"
         android:supportsRtl="false" >
@@ -55,7 +55,7 @@
             android:value="com.android.email2.ui.MailActivityEmail"
             tools:replace="android:value"/>
         <activity
-            android:name="com.android.email.activity.ComposeActivityEmail"
+            android:name=".activity.ComposeActivityEmail"
             android:label="@string/app_name"
             android:theme="@style/ComposeTheme">
             <intent-filter>
@@ -90,7 +90,7 @@
             </intent-filter>
             <intent-filter>
                 <action
-                    android:name="com.android.email.intent.action.REPLY" />
+                    android:name="com.chen.email.intent.action.REPLY" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
@@ -109,8 +109,8 @@
             </intent-filter>
         </activity>
 
-        <activity-alias android:name="com.android.mail.compose.ComposeActivity"
-            android:targetActivity="com.android.email.activity.ComposeActivityEmail"/>
+        <activity-alias android:name="com.chen.mail.compose.ComposeActivity"
+            android:targetActivity=".activity.ComposeActivityEmail"/>
 
         <activity
             android:name=".activity.EventViewer"
@@ -128,29 +128,29 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.android.mail.ui.FolderSelectionActivity"
+        <activity android:name="com.chen.mail.ui.FolderSelectionActivity"
             android:label="@string/activity_folder_selection" />
 
-        <activity android:name="com.android.email2.ui.MailboxSelectionActivityEmail"
+        <activity android:name="com.chen.email2.ui.MailboxSelectionActivityEmail"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
             </intent-filter>
         </activity>
 
-        <activity android:name="com.android.mail.ui.ShortcutNameActivity"
+        <activity android:name="com.chen.mail.ui.ShortcutNameActivity"
             android:label="@string/shortcut_name_title"
             android:theme="@style/ShortcutWidgetTheme">
         </activity>
 
-        <activity android:name="com.android.mail.ui.MailboxSelectionActivity"
+        <activity android:name="com.chen.mail.ui.MailboxSelectionActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
             </intent-filter>
         </activity>
 
-        <activity android:name="com.android.email2.ui.CreateShortcutActivityEmail"
+        <activity android:name="com.chen.email2.ui.CreateShortcutActivityEmail"
             android:theme="@style/ShortcutWidgetTheme"
             android:label="@string/folder_shortcut_widget_label">
 
@@ -163,7 +163,7 @@
 
         <activity
             android:label="@string/app_name"
-            android:name="com.android.email2.ui.MailActivityEmail"
+            android:name="com.chen.email2.ui.MailActivityEmail"
             android:theme="@style/PlainUnifiedEmailTheme"
             android:windowSoftInputMode="adjustPan|stateUnspecified" >
             <intent-filter>
@@ -179,8 +179,8 @@
             <meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />
         </activity>
 
-        <activity-alias android:name="com.android.email.activity.Welcome"
-            android:targetActivity="com.android.email2.ui.MailActivityEmail"
+        <activity-alias android:name="com.chen.email.activity.Welcome"
+            android:targetActivity="com.chen.email2.ui.MailActivityEmail"
             android:label="@string/app_name" >
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
@@ -210,7 +210,7 @@
             >
             <intent-filter>
                 <action
-                    android:name="com.android.email.CREATE_ACCOUNT" />
+                    android:name="com.chen.email.CREATE_ACCOUNT" />
                 <category
                     android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -248,7 +248,7 @@
             >
             <intent-filter>
                 <action
-                    android:name="com.android.email.activity.setup.ACCOUNT_MANAGER_ENTRY" />
+                    android:name="com.chen.email.activity.setup.ACCOUNT_MANAGER_ENTRY" />
                 <category
                     android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -293,13 +293,13 @@
         </activity>
 
         <activity
-            android:name="com.android.mail.photo.MailPhotoViewActivity"
+            android:name="com.chen.mail.photo.MailPhotoViewActivity"
             android:label="@string/app_name"
             android:theme="@style/PhotoViewTheme" >
         </activity>
 
         <activity
-            android:name="com.android.mail.browse.EmlViewerActivity"
+            android:name="com.chen.mail.browse.EmlViewerActivity"
             android:label="@string/app_name"
             android:theme="@style/UnifiedEmailTheme" >
             <intent-filter>
@@ -316,7 +316,7 @@
             android:authorities="com.android.email2.conversation.provider"
             android:label="@string/conversation_content_provider"
             android:exported="true"
-            android:name="com.android.mail.browse.EmailConversationProvider" >
+            android:name="com.chen.mail.browse.EmailConversationProvider" >
             <grant-uri-permission android:pathPattern=".*" />
         </provider>
 
@@ -324,14 +324,14 @@
             android:authorities="com.android.email2.accountcache"
             android:label="@string/account_cache_provider"
             android:exported="true"
-            android:name="com.android.mail.providers.EmailAccountCacheProvider" >
+            android:name="com.chen.mail.providers.EmailAccountCacheProvider" >
             <grant-uri-permission android:pathPattern=".*" />
         </provider>
 
         <provider
             android:authorities="@string/eml_attachment_provider"
             android:exported="false"
-            android:name="com.android.mail.providers.EmlAttachmentProvider" >
+            android:name="com.chen.mail.providers.EmlAttachmentProvider" >
             <grant-uri-permission android:pathPattern=".*" />
         </provider>
 
@@ -339,11 +339,11 @@
           UnifiedEmail, and has package name com.android.mail.providers and the class is
           called SuggestionsProvider. The authority name is specified in the MailAppProvider
           which is specific to the two apps separately. -->
-  <!--      <provider android:name="com.android.mail.providers.SuggestionsProvider"
-            android:authorities="com.android.email.suggestionsprovider"
+  <!--      <provider android:name="SuggestionsProvider"
+            android:authorities="com.chen.email.suggestionsprovider"
             android:exported="true" />-->
 
-        <service android:name="com.android.mail.compose.EmptyService"/>
+        <service android:name="com.chen.mail.compose.EmptyService"/>
         <!-- Widget -->
         <receiver android:name=".provider.WidgetProvider" android:label="@string/app_name">
             <intent-filter>
@@ -364,7 +364,7 @@
             <meta-data android:name="android.appwidget.provider"
                 android:resource="@xml/widget_info" />
         </receiver>
-        <service android:name="com.android.mail.widget.WidgetService"
+        <service android:name="com.chen.mail.widget.WidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS"
             android:exported="false" />
 
@@ -466,7 +466,7 @@
 
         <!--Required stanza to register the PopImapSyncAdapterService with SyncManager -->
         <service
-            android:name="com.android.email.service.Pop3SyncAdapterService"
+            android:name=".service.Pop3SyncAdapterService"
             android:exported="true">
             <intent-filter>
                 <action
@@ -477,7 +477,7 @@
         </service>
 
         <service
-            android:name="com.android.email.service.LegacyImapSyncAdapterService"
+            android:name=".service.LegacyImapSyncAdapterService"
             android:exported="true">
             <intent-filter>
                 <action
@@ -491,44 +491,44 @@
         <service
             android:name=".service.PolicyService"
             android:enabled="true"
-            android:permission="com.android.email.permission.ACCESS_PROVIDER"
+            android:permission="com.chen.email.permission.ACCESS_PROVIDER"
             >
             <intent-filter>
                 <action
-                    android:name="com.android.email.POLICY_INTENT" />
+                    android:name="com.chen.email.POLICY_INTENT" />
             </intent-filter>
         </service>
 
         <service
             android:name=".service.AccountService"
             android:enabled="true"
-            android:permission="com.android.email.permission.ACCESS_PROVIDER"
+            android:permission="com.chen.email.permission.ACCESS_PROVIDER"
             >
             <intent-filter>
                 <action
-                    android:name="com.android.email.ACCOUNT_INTENT" />
+                    android:name="com.chen.email.ACCOUNT_INTENT" />
             </intent-filter>
         </service>
 
         <service
             android:name=".service.ImapService"
             android:enabled="true"
-            android:permission="com.android.email.permission.ACCESS_PROVIDER"
+            android:permission="com.chen.email.permission.ACCESS_PROVIDER"
             >
             <intent-filter>
                 <action
-                    android:name="com.android.email.IMAP_INTENT" />
+                    android:name="com.chen.email.IMAP_INTENT" />
             </intent-filter>
         </service>
 
         <service
             android:name=".service.Pop3Service"
             android:enabled="true"
-            android:permission="com.android.email.permission.ACCESS_PROVIDER"
+            android:permission="com.chen.email.permission.ACCESS_PROVIDER"
             >
             <intent-filter>
                 <action
-                    android:name="com.android.email.POP3_INTENT" />
+                    android:name="com.chen.email.POP3_INTENT" />
             </intent-filter>
         </service>
 
@@ -598,19 +598,19 @@
 
         <provider
             android:name=".provider.AttachmentProvider"
-            android:authorities="com.android.email.attachmentprovider"
+            android:authorities="com.chen.email.attachmentprovider"
             android:grantUriPermissions="true"
             android:exported="true"
-            android:readPermission="com.android.email.permission.READ_ATTACHMENT"
+            android:readPermission="com.chen.email.permission.READ_ATTACHMENT"
             />
 
         <!-- This provider MUST be protected by strict permissions, as granting access to
              it exposes user passwords and other confidential information. -->
         <provider
             android:name=".provider.EmailProvider"
-            android:authorities="com.android.email.provider;com.android.email.notifier"
+            android:authorities="com.chen.email.provider;com.chen.email.notifier"
             android:exported="true"
-            android:permission="com.android.email.permission.ACCESS_PROVIDER"
+            android:permission="com.chen.email.permission.ACCESS_PROVIDER"
             android:label="@string/app_name"
             />
 
@@ -646,7 +646,7 @@
                 />
         </service>
 
-        <service android:name="com.android.email.EmailIntentService"
+        <service android:name=".EmailIntentService"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.LOCALE_CHANGED"/>
@@ -658,7 +658,7 @@
             </intent-filter>
         </service>
 
-        <service android:name="com.android.mail.NotificationActionIntentService"
+        <service android:name="com.chen.mail.NotificationActionIntentService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.android.mail.action.notification.MARK_READ" />
@@ -672,9 +672,9 @@
                 <action android:name="com.android.mail.action.notification.FORWARD" />
             </intent-filter>
         </service>
-        <service android:name="com.android.mail.MailLogService">
+        <service android:name="com.chen.mail.MailLogService">
         </service>
-        <service android:name="com.android.mail.browse.EmlTempFileDeletionService" />
+        <service android:name="com.chen.mail.browse.EmlTempFileDeletionService" />
     </application>
 
 </manifest>

@@ -15,7 +15,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.mail.browse.SuperCollapsedBlock
+<com.chen.mail.browse.SuperCollapsedBlock
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/super_collapsed_block"
     android:layout_width="match_parent"
@@ -30,4 +30,4 @@
         android:gravity="center"
         android:textSize="@dimen/super_collapsed_text_size"
         android:textColor="@color/dark_gray_text_color" />
-</com.android.mail.browse.SuperCollapsedBlock>
+</com.chen.mail.browse.SuperCollapsedBlock>

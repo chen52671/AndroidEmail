@@ -19,7 +19,7 @@
     and read from resources -->
     <!-- Name of the search suggestions authority that looks up recent suggestions. This
          needs to be modified in AndroidManifest.xml and res/xml/searchable.xml as well.  -->
-    <string name="suggestions_authority" translatable="false">com.android.email.suggestionsprovider</string>
+    <string name="suggestions_authority" translatable="false">com.chen.email.suggestionsprovider</string>
 
     <!-- Permissions label for reading attachments -->
     <string name="permission_read_attachment_label">Read email attachments</string>
@@ -791,13 +791,13 @@
     <string name="email_feedback_uri" translatable="false"></string>
 
     <string name="account_manager_type_exchange" translatable="false">com.android.exchange</string>
-    <string name="account_manager_type_pop3" translatable="false">com.android.email</string>
-    <string name="account_manager_type_imap" translatable="false">com.android.email</string>
-    <string name="account_manager_type_legacy_imap" translatable="false">com.android.email</string>
-    <string name="intent_exchange_action" translatable="false">com.android.email.EXCHANGE_INTENT</string>
+    <string name="account_manager_type_pop3" translatable="false">com.chen.email</string>
+    <string name="account_manager_type_imap" translatable="false">com.chen.email</string>
+    <string name="account_manager_type_legacy_imap" translatable="false">com.chen.email</string>
+    <string name="intent_exchange_action" translatable="false">com.chen.email.EXCHANGE_INTENT</string>
     <string name="intent_exchange_package" translatable="false">com.android.exchange</string>
-    <string name="intent_account_manager_entry" translatable="false">com.android.email.activity.setup.ACCOUNT_MANAGER_ENTRY</string>
-    <string name="authority_email_provider" translatable="false">com.android.email.provider</string>
+    <string name="intent_account_manager_entry" translatable="false">com.chen.email.activity.setup.ACCOUNT_MANAGER_ENTRY</string>
+    <string name="authority_email_provider" translatable="false">com.chen.email.provider</string>
     <string name="protocol_legacy_imap" translatable="false">imap</string>
     <string name="protocol_imap" translatable="false">imap</string>
     <string name="protocol_pop3" translatable="false">pop3</string>
@@ -805,8 +805,8 @@
     <string name="application_mime_type" translatable="false">application/email-ls</string>
 
     <!-- Content Provider Authority for Eml Attachments -->
-    <string name="eml_attachment_provider" translatable="false">com.android.email.provider.eml.attachment</string>
+    <string name="eml_attachment_provider" translatable="false">com.chen.email.provider.eml.attachment</string>
 
     <!-- Provider name for widgets -->
-    <string name="widget_provider" translatable="false">com.android.email.provider.WidgetProvider</string>
+    <string name="widget_provider" translatable="false">com.chen.email.provider.WidgetProvider</string>
 </resources>

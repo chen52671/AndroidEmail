@@ -30,7 +30,7 @@
         android:progress="100"
         android:progressDrawable="@drawable/progressbar_solid_holo" />
 
-    <com.android.mail.ui.ButteryProgressBar
+    <com.chen.mail.ui.ButteryProgressBar
         android:id="@+id/progress"
         android:layout_width="match_parent"
         android:layout_height="30dp"

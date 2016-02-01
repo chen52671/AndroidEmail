@@ -15,7 +15,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.mail.browse.MessageHeaderView
+<com.chen.mail.browse.MessageHeaderView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -37,4 +37,4 @@
         android:layout_height="12dp"
         android:background="@drawable/snap_header_gradient"
         android:visibility="gone" />
-</com.android.mail.browse.MessageHeaderView>
+</com.chen.mail.browse.MessageHeaderView>

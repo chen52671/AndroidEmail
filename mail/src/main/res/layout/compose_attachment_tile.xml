@@ -15,7 +15,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.mail.compose.ComposeAttachmentTile
+<com.chen.mail.compose.ComposeAttachmentTile
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/attachment_tile"
     android:layout_width="wrap_content"
@@ -83,4 +83,4 @@
 
     </RelativeLayout>
 
-</com.android.mail.compose.ComposeAttachmentTile>
+</com.chen.mail.compose.ComposeAttachmentTile>

@@ -15,7 +15,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.mail.ui.NestedFolderTeaserView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.chen.mail.ui.NestedFolderTeaserView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal" >
@@ -76,4 +76,4 @@
 
     <include layout="@layout/teaser_right_edge" />
 
-</com.android.mail.ui.NestedFolderTeaserView>
+</com.chen.mail.ui.NestedFolderTeaserView>

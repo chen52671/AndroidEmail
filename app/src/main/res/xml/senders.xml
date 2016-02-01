@@ -30,5 +30,5 @@
     -->
 
 <senders>
-    <sender scheme="smtp" class="com.android.email.mail.transport.SmtpSender" />
+    <sender scheme="smtp" class="com.chen.email.mail.transport.SmtpSender" />
 </senders>

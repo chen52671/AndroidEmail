@@ -1,4 +1,4 @@
-package com.android.email;
+package com.chen.email;
 
 import org.junit.Test;
 

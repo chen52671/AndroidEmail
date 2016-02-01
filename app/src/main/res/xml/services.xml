@@ -47,12 +47,12 @@
          syncContacts: whether this service is capable of syncing contacts (offering a checkbox)
 -->
 
-<emailservices xmlns:email="http://schemas.android.com/apk/res/com.android.email">
+<emailservices xmlns:email="http://schemas.android.com/apk/res/com.chen.email">
     <emailservice
         email:protocol="pop3"
         email:name="@string/pop3_name"
         email:accountType="@string/account_manager_type_pop3"
-        email:serviceClass="com.android.email.service.Pop3Service"
+        email:serviceClass="com.chen.email.service.Pop3Service"
         email:port="110"
         email:portSsl="995"
         email:syncIntervalStrings="@array/account_settings_check_frequency_entries"
@@ -69,7 +69,7 @@
         email:protocol="imap"
         email:name="@string/imap_name"
         email:accountType="@string/account_manager_type_imap"
-        email:serviceClass="com.android.email.service.ImapService"
+        email:serviceClass="com.chen.email.service.ImapService"
         email:port="143"
         email:portSsl="993"
         email:syncIntervalStrings="@array/account_settings_check_frequency_entries"

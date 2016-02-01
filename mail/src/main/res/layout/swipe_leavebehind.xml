@@ -15,7 +15,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.mail.ui.LeaveBehindItem xmlns:android="http://schemas.android.com/apk/res/android"
+<com.chen.mail.ui.LeaveBehindItem xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/swiped_bg_color">
@@ -24,4 +24,4 @@
         android:id="@+id/swipeable_content"
         layout="@layout/swipe_leavebehind_body" />
 
-</com.android.mail.ui.LeaveBehindItem>
+</com.chen.mail.ui.LeaveBehindItem>

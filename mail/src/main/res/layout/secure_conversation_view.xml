@@ -20,7 +20,8 @@
     android:layout_height="match_parent"
     android:background="@color/conversation_view_border_color" >
 
-    <com.android.mail.browse.MessageScrollView android:id="@+id/scroll_view"
+    <com.chen.mail.browse.MessageScrollView
+        android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
@@ -66,7 +67,7 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:background="@color/message_border_gradient_color"/>
-                <com.android.mail.browse.MessageWebView
+                <com.chen.mail.browse.MessageWebView
                     android:id="@+id/webview"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -102,7 +103,7 @@
 
         </LinearLayout>
 
-    </com.android.mail.browse.MessageScrollView>
+    </com.chen.mail.browse.MessageScrollView>
 
     <include layout="@layout/conversation_load_spinner"/>
 

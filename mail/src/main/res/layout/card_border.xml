@@ -15,7 +15,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.mail.browse.BorderView
+<com.chen.mail.browse.BorderView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -37,4 +37,4 @@
         android:layout_height="wrap_content"
         android:background="@drawable/card_top"
         style="@style/ConversationViewSideMarginStyle" />
-</com.android.mail.browse.BorderView>
+</com.chen.mail.browse.BorderView>
