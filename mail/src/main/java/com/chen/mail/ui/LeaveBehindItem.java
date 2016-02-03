@@ -28,7 +28,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.analytics.Analytics;
 import com.chen.mail.browse.ConversationCursor;
 import com.chen.mail.browse.ConversationItemView;

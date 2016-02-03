@@ -46,7 +46,7 @@ import java.util.Set;
 
 public final class MockUiProvider extends ContentProvider {
 
-    public static final String AUTHORITY = "com.android.mail.mockprovider";
+    public static final String AUTHORITY = "com.chen.mail.mockprovider";
 
     private static final int NUM_ACCOUNTS = 5;
 
@@ -300,7 +300,7 @@ public final class MockUiProvider extends ContentProvider {
         Map<String, Object> accountMap = Maps.newHashMap();
         accountMap.put(BaseColumns._ID, Long.valueOf(accountId));
         accountMap.put(UIProvider.AccountColumns.NAME, "account" + accountId + "@mockuiprovider.com");
-        accountMap.put(UIProvider.AccountColumns.TYPE, "com.android.mail.providers.protos.mock");
+        accountMap.put(UIProvider.AccountColumns.TYPE, "com.chen.mail.providers.protos.mock");
         accountMap.put(UIProvider.AccountColumns.ACCOUNT_MANAGER_NAME,
                 "account" + accountId + "@mockuiprovider.com");
         accountMap.put(UIProvider.AccountColumns.PROVIDER_VERSION, Long.valueOf(1));

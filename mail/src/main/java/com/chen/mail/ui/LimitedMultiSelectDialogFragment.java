@@ -17,7 +17,7 @@
 
 package com.chen.mail.ui;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Sets;
 

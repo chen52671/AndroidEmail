@@ -26,7 +26,7 @@ import android.graphics.drawable.Drawable;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.graphics.PageMarginDrawable;
 import com.chen.mail.providers.Account;
 import com.chen.mail.providers.Conversation;

@@ -22,7 +22,7 @@ import com.google.common.collect.Lists;
 import android.content.Context;
 import android.view.LayoutInflater;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 
 import java.util.ArrayList;
 

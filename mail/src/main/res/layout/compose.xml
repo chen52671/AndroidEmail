@@ -57,7 +57,7 @@
                 <include layout="@layout/compose_body"/>
 
                 <!--  Attachments -->
-                <com.android.mail.compose.AttachmentsView android:id="@+id/attachments"
+                <com.chen.mail.compose.AttachmentsView android:id="@+id/attachments"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
                     android:orientation="vertical"
@@ -69,10 +69,10 @@
                     android:visibility="gone"
                     android:focusable="true">
                     <include layout="@layout/compose_attachments" />
-                </com.android.mail.compose.AttachmentsView>
+                </com.chen.mail.compose.AttachmentsView>
 
                 <!-- Quoted text -->
-                <com.android.mail.compose.QuotedTextView android:id="@+id/quoted_text_view"
+                <com.chen.mail.compose.QuotedTextView android:id="@+id/quoted_text_view"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
                     android:visibility="gone" />

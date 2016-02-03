@@ -21,7 +21,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ProgressBar;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 
 /**
  * MinTimeProgressView implements a ProgressBar that waits MIN_DELAY ms to be

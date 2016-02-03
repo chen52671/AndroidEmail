@@ -23,12 +23,12 @@ import android.content.Intent;
 public class UnifiedAccountCacheProvider extends MailAppProvider {
     // The authority of our conversation provider (a forwarding provider)
     // This string must match the declaration in AndroidManifest.xml
-    private static final String sAuthority = "com.android.mail.accountcache";
+    private static final String sAuthority = "com.chen.mail.accountcache";
     /**
      * Authority for the suggestions provider. This is specified in AndroidManifest.xml and
      * res/xml/searchable.xml.
      */
-    private static final String sSuggestionsAuthority = "com.android.mail.suggestionsprovider";
+    private static final String sSuggestionsAuthority = "com.chen.mail.suggestionsprovider";
 
     @Override
     protected String getAuthority() {

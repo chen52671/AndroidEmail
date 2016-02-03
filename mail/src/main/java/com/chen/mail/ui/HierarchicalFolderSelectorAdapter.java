@@ -28,7 +28,7 @@ import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.providers.Folder;
 import com.google.common.annotations.VisibleForTesting;
 

@@ -20,7 +20,7 @@ package com.chen.mail.ui;
 import android.content.Context;
 import android.content.res.Resources.NotFoundException;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.utils.LogTag;
 import com.chen.mail.utils.LogUtils;
 import com.chen.mail.utils.Utils;

@@ -46,7 +46,7 @@ import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;

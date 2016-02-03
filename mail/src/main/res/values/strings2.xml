@@ -21,7 +21,7 @@
 
     <!-- Name of the search suggestions authority that looks up recent suggestions. This
          needs to be modified in AndroidManifest.xml and res/xml/searchable.xml as well.  -->
-    <string name="suggestions_authority" translatable="false">com.android.mail.suggestionsprovider</string>
+    <string name="suggestions_authority" translatable="false">com.chen.mail.suggestionsprovider</string>
 
     <!-- Layout tests strings -->
     <string name="mock_content_provider" translatable="false">Mock Content Provider</string>
@@ -867,7 +867,7 @@
     <string name="add_account">Add account</string>
 
     <!-- Content Provider Authority for Eml Attachments -->
-    <string name="eml_attachment_provider" translatable="false">com.android.mail.provider.eml.attachment</string>
+    <string name="eml_attachment_provider" translatable="false">com.chen.mail.provider.eml.attachment</string>
 
     <!-- Action bar title for viewing messages that are attached to another message. -->
     <string name="attached_message">Attached message</string>
@@ -937,6 +937,6 @@
     <string name="hide_folders">Hide folders</string>
 
     <!-- Provider name for widgets -->
-    <string name="widget_provider" translatable="false">com.android.mail.widget.WidgetProvider</string>
+    <string name="widget_provider" translatable="false">com.chen.mail.widget.WidgetProvider</string>
 
 </resources>

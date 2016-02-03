@@ -31,7 +31,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.preferences.MailPrefs;
 import com.chen.mail.providers.Account;
 import com.chen.mail.providers.Folder;
@@ -58,9 +58,9 @@ public abstract class BaseWidgetProvider extends AppWidgetProvider {
     public static final String ACCOUNT_FOLDER_PREFERENCE_SEPARATOR = " ";
 
 
-    protected static final String ACTION_UPDATE_WIDGET = "com.android.mail.ACTION_UPDATE_WIDGET";
+    protected static final String ACTION_UPDATE_WIDGET = "com.chen.mail.ACTION_UPDATE_WIDGET";
     protected static final String
-            ACTION_VALIDATE_ALL_WIDGETS = "com.android.mail.ACTION_VALIDATE_ALL_WIDGETS";
+            ACTION_VALIDATE_ALL_WIDGETS = "com.chen.mail.ACTION_VALIDATE_ALL_WIDGETS";
     protected static final String EXTRA_WIDGET_ID = "widgetId";
 
     private static final String LOG_TAG = LogTag.getLogTag();

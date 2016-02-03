@@ -105,12 +105,12 @@ public class UIProvider {
     }
 
     // The actual content provider should define its own authority
-    public static final String AUTHORITY = "com.android.mail.providers";
+    public static final String AUTHORITY = "com.chen.mail.providers";
 
     public static final String ACCOUNT_LIST_TYPE =
-            "vnd.android.cursor.dir/vnd.com.android.mail.account";
+            "vnd.android.cursor.dir/vnd.com.chen.mail.account";
     public static final String ACCOUNT_TYPE =
-            "vnd.android.cursor.item/vnd.com.android.mail.account";
+            "vnd.android.cursor.item/vnd.com.chen.mail.account";
 
     /**
      * Query parameter key that can be used to control the behavior of list queries.  The value
@@ -667,9 +667,9 @@ public class UIProvider {
 
     // We define a "folder" as anything that contains a list of conversations.
     public static final String FOLDER_LIST_TYPE =
-            "vnd.android.cursor.dir/vnd.com.android.mail.folder";
+            "vnd.android.cursor.dir/vnd.com.chen.mail.folder";
     public static final String FOLDER_TYPE =
-            "vnd.android.cursor.item/vnd.com.android.mail.folder";
+            "vnd.android.cursor.item/vnd.com.chen.mail.folder";
 
     public static final String[] FOLDERS_PROJECTION = {
         BaseColumns._ID,
@@ -944,9 +944,9 @@ public class UIProvider {
 
     // We define a "folder" as anything that contains a list of conversations.
     public static final String CONVERSATION_LIST_TYPE =
-            "vnd.android.cursor.dir/vnd.com.android.mail.conversation";
+            "vnd.android.cursor.dir/vnd.com.chen.mail.conversation";
     public static final String CONVERSATION_TYPE =
-            "vnd.android.cursor.item/vnd.com.android.mail.conversation";
+            "vnd.android.cursor.item/vnd.com.chen.mail.conversation";
 
 
     public static final String[] CONVERSATION_PROJECTION = {
@@ -1527,9 +1527,9 @@ public class UIProvider {
     @Deprecated
     public static final String MESSAGE_ATTACHMENT_INFO_SEPARATOR = "\n";
     public static final String MESSAGE_LIST_TYPE =
-            "vnd.android.cursor.dir/vnd.com.android.mail.message";
+            "vnd.android.cursor.dir/vnd.com.chen.mail.message";
     public static final String MESSAGE_TYPE =
-            "vnd.android.cursor.item/vnd.com.android.mail.message";
+            "vnd.android.cursor.item/vnd.com.chen.mail.message";
 
     public static final int MESSAGE_ID_COLUMN = 0;
     public static final int MESSAGE_SERVER_ID_COLUMN = 1;
@@ -1814,9 +1814,9 @@ public class UIProvider {
     }
 
     public static final String ATTACHMENT_LIST_TYPE =
-            "vnd.android.cursor.dir/vnd.com.android.mail.attachment";
+            "vnd.android.cursor.dir/vnd.com.chen.mail.attachment";
     public static final String ATTACHMENT_TYPE =
-            "vnd.android.cursor.item/vnd.com.android.mail.attachment";
+            "vnd.android.cursor.item/vnd.com.chen.mail.attachment";
 
     public static final String[] ATTACHMENT_PROJECTION = {
         AttachmentColumns.NAME,
@@ -2218,7 +2218,7 @@ public class UIProvider {
      * {@link UpdateNotificationExtras#EXTRA_FOLDER} {@link UpdateNotificationExtras#EXTRA_ACCOUNT}
      */
     public static final String ACTION_UPDATE_NOTIFICATION =
-            "com.android.mail.action.update_notification";
+            "com.chen.mail.action.update_notification";
 
     public static final class UpdateNotificationExtras {
         /**

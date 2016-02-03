@@ -21,7 +21,7 @@ import android.content.res.Resources;
 import android.text.format.DateUtils;
 import android.text.format.Time;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 
 import java.util.Formatter;
 

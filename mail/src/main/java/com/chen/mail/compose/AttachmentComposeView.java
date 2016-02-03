@@ -23,7 +23,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.chen.mail.providers.Attachment;
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.utils.AttachmentUtils;
 import com.chen.mail.utils.LogTag;
 import com.chen.mail.utils.LogUtils;

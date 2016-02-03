@@ -72,7 +72,7 @@ import com.chen.common.Rfc822Validator;
 import com.chen.common.contacts.DataUsageStatUpdater;
 import com.chen.ex.chips.RecipientEditTextView;
 import com.chen.mail.MailIntentService;
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.analytics.Analytics;
 import com.chen.mail.browse.MessageHeaderView;
 import com.chen.mail.compose.FromAddressSpinner.OnAccountChangedListener;
@@ -210,7 +210,7 @@ public class ComposeActivity extends Activity implements OnClickListener, OnNavi
     private static final int RESULT_PICK_ATTACHMENT = 1;
     private static final int RESULT_CREATE_ACCOUNT = 2;
     // TODO(mindyp) set mime-type for auto send?
-    public static final String AUTO_SEND_ACTION = "com.android.mail.action.AUTO_SEND";
+    public static final String AUTO_SEND_ACTION = "com.chen.mail.action.AUTO_SEND";
 
     private static final String EXTRA_SELECTED_REPLY_FROM_ACCOUNT = "replyFromAccount";
     private static final String EXTRA_REQUEST_ID = "requestId";

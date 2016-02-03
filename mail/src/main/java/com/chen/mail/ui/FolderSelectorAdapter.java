@@ -17,7 +17,7 @@
 
 package com.chen.mail.ui;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.providers.Folder;
 import com.chen.mail.providers.UIProvider;
 import com.google.common.base.Objects;

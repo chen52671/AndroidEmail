@@ -336,7 +336,7 @@
         </provider>
 
         <!-- The android:name is the name of the Provider class which is stored in
-          UnifiedEmail, and has package name com.android.mail.providers and the class is
+          UnifiedEmail, and has package name com.chen.mail.providers and the class is
           called SuggestionsProvider. The authority name is specified in the MailAppProvider
           which is specific to the two apps separately. -->
   <!--      <provider android:name="SuggestionsProvider"
@@ -350,15 +350,15 @@
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.mail.ACTION_NOTIFY_DATASET_CHANGED" />
+                <action android:name="com.chen.mail.ACTION_NOTIFY_DATASET_CHANGED" />
                 <data android:mimeType="@string/application_mime_type" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.mail.ACTION_UPDATE_WIDGET" />
+                <action android:name="com.chen.mail.ACTION_UPDATE_WIDGET" />
                 <data android:mimeType="@string/application_mime_type" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.mail.ACTION_VALIDATE_ALL_WIDGETS" />
+                <action android:name="com.chen.mail.ACTION_VALIDATE_ALL_WIDGETS" />
                 <data android:mimeType="@string/application_mime_type" />
             </intent-filter>
             <meta-data android:name="android.appwidget.provider"
@@ -395,7 +395,7 @@
             </intent-filter>
             <!-- To handle new message notifications -->
             <intent-filter>
-                <action android:name="com.android.mail.action.update_notification"
+                <action android:name="com.chen.mail.action.update_notification"
                     android:priority="-10" />
                 <data android:mimeType="@string/application_mime_type" />
             </intent-filter>
@@ -650,10 +650,10 @@
             android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.LOCALE_CHANGED"/>
-                <action android:name="com.android.mail.action.RESEND_NOTIFICATIONS" />
+                <action android:name="com.chen.mail.action.RESEND_NOTIFICATIONS" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.mail.action.CLEAR_NEW_MAIL_NOTIFICATIONS" />
+                <action android:name="com.chen.mail.action.CLEAR_NEW_MAIL_NOTIFICATIONS" />
                 <data android:scheme="content" />
             </intent-filter>
         </service>
@@ -661,15 +661,15 @@
         <service android:name="com.chen.mail.NotificationActionIntentService"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.android.mail.action.notification.MARK_READ" />
-                <action android:name="com.android.mail.action.notification.ARCHIVE" />
-                <action android:name="com.android.mail.action.notification.DELETE" />
-                <action android:name="com.android.mail.action.notification.UNDO" />
-                <action android:name="com.android.mail.action.notification.DESTRUCT" />
-                <action android:name="com.android.mail.action.notification.UNDO_TIMEOUT" />
-                <action android:name="com.android.mail.action.notification.REPLY" />
-                <action android:name="com.android.mail.action.notification.REPLY_ALL" />
-                <action android:name="com.android.mail.action.notification.FORWARD" />
+                <action android:name="com.chen.mail.action.notification.MARK_READ" />
+                <action android:name="com.chen.mail.action.notification.ARCHIVE" />
+                <action android:name="com.chen.mail.action.notification.DELETE" />
+                <action android:name="com.chen.mail.action.notification.UNDO" />
+                <action android:name="com.chen.mail.action.notification.DESTRUCT" />
+                <action android:name="com.chen.mail.action.notification.UNDO_TIMEOUT" />
+                <action android:name="com.chen.mail.action.notification.REPLY" />
+                <action android:name="com.chen.mail.action.notification.REPLY_ALL" />
+                <action android:name="com.chen.mail.action.notification.FORWARD" />
             </intent-filter>
         </service>
         <service android:name="com.chen.mail.MailLogService">

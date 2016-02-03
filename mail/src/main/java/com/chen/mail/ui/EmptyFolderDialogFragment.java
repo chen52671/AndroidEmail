@@ -23,7 +23,7 @@ import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.providers.Folder;
 import com.chen.mail.providers.UIProvider;
 

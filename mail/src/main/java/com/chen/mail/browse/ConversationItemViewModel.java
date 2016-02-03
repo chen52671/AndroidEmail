@@ -28,7 +28,7 @@ import android.text.style.CharacterStyle;
 import android.util.LruCache;
 import android.util.Pair;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.providers.Conversation;
 import com.chen.mail.providers.Folder;
 import com.chen.mail.providers.MessageInfo;

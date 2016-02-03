@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.mail">
+    package="com.chen.mail">
 
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <!-- Allows mail to access the user's contacts, for email address auto-completion -->
@@ -101,7 +101,7 @@
         </activity>
 
         <provider
-            android:authorities="com.android.mail.accountcache"
+            android:authorities="com.chen.mail.accountcache"
             android:label="@string/account_cache_provider"
             android:multiprocess="false"
             android:name="com.chen.mail.providers.UnifiedAccountCacheProvider" >
@@ -109,7 +109,7 @@
         </provider>
 
         <provider
-            android:authorities="com.android.mail.mockprovider"
+            android:authorities="com.chen.mail.mockprovider"
             android:label="@string/mock_content_provider"
             android:multiprocess="false"
             android:name="com.chen.mail.providers.protos.mock.MockUiProvider" >
@@ -117,7 +117,7 @@
         </provider>
 
         <provider
-            android:authorities="com.android.mail.conversation.provider"
+            android:authorities="com.chen.mail.conversation.provider"
             android:label="@string/conversation_content_provider"
             android:multiprocess="false"
             android:name="com.chen.mail.browse.UnifiedConversationProvider" >
@@ -133,11 +133,11 @@
         </provider>
 
         <!-- The android:name is the name of the Provider class which is stored in
-          UnifiedEmail, and has package name com.android.mail.providers and the class is
+          UnifiedEmail, and has package name com.chen.mail.providers and the class is
           called SuggestionsProvider. The authority name is specified in the MailAppProvider
           which is specific to the two apps separately. -->
         <provider android:name="com.chen.mail.providers.SuggestionsProvider"
-            android:authorities="com.android.mail.suggestionsprovider" />
+            android:authorities="com.chen.mail.suggestionsprovider" />
 
         <service android:name="com.chen.mail.compose.EmptyService"/>
 
@@ -147,7 +147,7 @@
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.mail.ACTION_NOTIFY_DATASET_CHANGED" />
+                <action android:name="com.chen.mail.ACTION_NOTIFY_DATASET_CHANGED" />
             </intent-filter>
             <meta-data android:name="android.appwidget.provider"
                 android:resource="@xml/widget_info" />

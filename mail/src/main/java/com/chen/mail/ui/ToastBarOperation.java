@@ -20,7 +20,7 @@ import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.providers.Folder;
 
 /**

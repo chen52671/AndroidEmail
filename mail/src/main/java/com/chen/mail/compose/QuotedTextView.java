@@ -30,7 +30,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.providers.Message;
 import com.chen.mail.utils.Utils;
 

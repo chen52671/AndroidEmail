@@ -28,7 +28,7 @@ import android.widget.BaseAdapter;
 
 import com.chen.mail.ContactInfoSource;
 import com.chen.mail.FormattedDateBuilder;
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.providers.Address;
 import com.chen.mail.providers.Conversation;
 import com.chen.mail.providers.UIProvider;

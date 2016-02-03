@@ -33,7 +33,7 @@ import android.database.MatrixCursor;
 import android.net.Uri;
 import android.os.Bundle;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.utils.LogTag;
 import com.chen.mail.utils.LogUtils;
 import com.chen.mail.utils.MatrixCursorWithExtra;

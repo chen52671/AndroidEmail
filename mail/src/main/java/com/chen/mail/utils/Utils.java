@@ -61,7 +61,7 @@ import android.view.Window;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.browse.ConversationCursor;
 import com.chen.mail.providers.Conversation;
 import com.chen.mail.providers.Folder;
@@ -115,7 +115,7 @@ public class Utils {
      */
     // TODO: UI Provider has this notification URI?
     public static final String ACTION_NOTIFY_DATASET_CHANGED =
-            "com.android.mail.ACTION_NOTIFY_DATASET_CHANGED";
+            "com.chen.mail.ACTION_NOTIFY_DATASET_CHANGED";
 
     /** Parameter keys for context-aware help. */
     private static final String SMART_HELP_LINK_PARAMETER_NAME = "p";

@@ -26,7 +26,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.analytics.Analytics;
 import com.chen.mail.providers.Account;
 import com.chen.mail.providers.AccountObserver;

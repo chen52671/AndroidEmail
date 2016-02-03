@@ -17,7 +17,7 @@
 
 package com.chen.mail.adapter;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.providers.Account;
 import com.chen.mail.providers.Folder;
 import com.chen.mail.ui.AccountItemView;

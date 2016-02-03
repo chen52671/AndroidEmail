@@ -29,7 +29,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.providers.Account;
 import com.chen.mail.providers.UIProvider;
 

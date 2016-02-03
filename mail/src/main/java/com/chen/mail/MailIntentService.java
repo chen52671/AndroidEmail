@@ -39,11 +39,11 @@ public class MailIntentService extends IntentService {
     private static final String LOG_TAG = LogTag.getLogTag();
 
     public static final String ACTION_RESEND_NOTIFICATIONS =
-            "com.android.mail.action.RESEND_NOTIFICATIONS";
+            "com.chen.mail.action.RESEND_NOTIFICATIONS";
     public static final String ACTION_CLEAR_NEW_MAIL_NOTIFICATIONS =
-            "com.android.mail.action.CLEAR_NEW_MAIL_NOTIFICATIONS";
+            "com.chen.mail.action.CLEAR_NEW_MAIL_NOTIFICATIONS";
     public static final String ACTION_BACKUP_DATA_CHANGED =
-            "com.android.mail.action.BACKUP_DATA_CHANGED";
+            "com.chen.mail.action.BACKUP_DATA_CHANGED";
 
     public static final String CONVERSATION_EXTRA = "conversation";
 

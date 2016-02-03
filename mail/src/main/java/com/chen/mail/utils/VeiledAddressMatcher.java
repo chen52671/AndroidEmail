@@ -19,7 +19,7 @@ package com.chen.mail.utils;
 import android.content.res.Resources;
 import android.text.TextUtils;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.providers.Account;
 import com.chen.mail.providers.AccountObserver;
 import com.chen.mail.ui.AccountController;

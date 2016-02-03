@@ -36,31 +36,31 @@ public class NotificationActionIntentService extends IntentService {
     private static final String LOG_TAG = "NotifActionIS";
 
     // Compose actions
-    public static final String ACTION_REPLY = "com.android.mail.action.notification.REPLY";
-    public static final String ACTION_REPLY_ALL = "com.android.mail.action.notification.REPLY_ALL";
-    public static final String ACTION_FORWARD = "com.android.mail.action.notification.FORWARD";
+    public static final String ACTION_REPLY = "com.chen.mail.action.notification.REPLY";
+    public static final String ACTION_REPLY_ALL = "com.chen.mail.action.notification.REPLY_ALL";
+    public static final String ACTION_FORWARD = "com.chen.mail.action.notification.FORWARD";
     // Toggle actions
-    public static final String ACTION_MARK_READ = "com.android.mail.action.notification.MARK_READ";
+    public static final String ACTION_MARK_READ = "com.chen.mail.action.notification.MARK_READ";
 
     // Destructive actions - These just display the undo bar
     public static final String ACTION_ARCHIVE_REMOVE_LABEL =
-            "com.android.mail.action.notification.ARCHIVE";
-    public static final String ACTION_DELETE = "com.android.mail.action.notification.DELETE";
+            "com.chen.mail.action.notification.ARCHIVE";
+    public static final String ACTION_DELETE = "com.chen.mail.action.notification.DELETE";
 
     /**
      * This action cancels the undo notification, and does not commit any changes.
      */
-    public static final String ACTION_UNDO = "com.android.mail.action.notification.UNDO";
+    public static final String ACTION_UNDO = "com.chen.mail.action.notification.UNDO";
 
     /**
      * This action performs the actual destructive action.
      */
-    public static final String ACTION_DESTRUCT = "com.android.mail.action.notification.DESTRUCT";
+    public static final String ACTION_DESTRUCT = "com.chen.mail.action.notification.DESTRUCT";
 
     public static final String EXTRA_NOTIFICATION_ACTION =
-            "com.android.mail.extra.EXTRA_NOTIFICATION_ACTION";
+            "com.chen.mail.extra.EXTRA_NOTIFICATION_ACTION";
     public static final String ACTION_UNDO_TIMEOUT =
-            "com.android.mail.action.notification.UNDO_TIMEOUT";
+            "com.chen.mail.action.notification.UNDO_TIMEOUT";
 
     public NotificationActionIntentService() {
         super("NotificationActionIntentService");

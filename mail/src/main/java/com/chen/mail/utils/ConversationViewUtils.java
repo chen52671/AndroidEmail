@@ -20,7 +20,7 @@ package com.chen.mail.utils;
 import android.content.res.Resources;
 import android.webkit.WebSettings;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 
 public class ConversationViewUtils {
     public static void setTextZoom(Resources resources, WebSettings settings) {

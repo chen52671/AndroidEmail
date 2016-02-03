@@ -162,6 +162,11 @@ public class AccountSettings extends PreferenceActivity implements FeedbackEnabl
     }
 
     @Override
+    protected boolean isValidFragment(String fragmentName) {
+        return true;
+    }
+
+    @Override
     public Intent getIntent() {
         final Intent intent = super.getIntent();
         final long accountId = IntentUtilities.getAccountIdFromIntent(intent);

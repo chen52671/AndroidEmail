@@ -26,7 +26,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.widget.ListView;
 
 import com.chen.mail.ConversationListContext;
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.providers.Account;
 import com.chen.mail.providers.Conversation;
 import com.chen.mail.providers.Folder;

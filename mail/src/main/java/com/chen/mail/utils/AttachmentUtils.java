@@ -27,7 +27,7 @@ import android.os.ParcelFileDescriptor;
 import android.os.SystemClock;
 import android.text.TextUtils;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

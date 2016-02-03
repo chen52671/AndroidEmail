@@ -15,7 +15,7 @@
  */
 package com.chen.mail.ui;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 
 import android.widget.ImageView;
 import android.widget.TextView;

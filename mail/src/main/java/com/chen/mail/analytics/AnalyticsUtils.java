@@ -17,7 +17,7 @@
 
 package com.chen.mail.analytics;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 
 public class AnalyticsUtils {
 

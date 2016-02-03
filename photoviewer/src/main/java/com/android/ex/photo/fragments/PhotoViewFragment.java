@@ -86,7 +86,7 @@ public class PhotoViewFragment extends Fragment implements
     }
 
     protected final static String STATE_INTENT_KEY =
-            "com.android.mail.photo.fragments.PhotoViewFragment.INTENT";
+            "com.chen.mail.photo.fragments.PhotoViewFragment.INTENT";
 
     protected final static String ARG_INTENT = "arg-intent";
     protected final static String ARG_POSITION = "arg-position";

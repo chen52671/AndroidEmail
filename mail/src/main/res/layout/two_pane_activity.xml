@@ -21,7 +21,7 @@
     android:layout_height="match_parent">
 
     <!-- DrawerLayout current only supports one content view (b/8752191) -->
-    <com.android.mail.ui.TwoPaneLayout
+    <com.chen.mail.ui.TwoPaneLayout
         android:id="@+id/two_pane_activity"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -74,6 +74,6 @@
             android:id="@+id/toast_bar"
             style="@style/ToastBarStyle" />
 
-    </com.android.mail.ui.TwoPaneLayout>
+    </com.chen.mail.ui.TwoPaneLayout>
 
 </android.support.v4.widget.DrawerLayout>

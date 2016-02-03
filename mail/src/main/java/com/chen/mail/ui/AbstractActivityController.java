@@ -63,7 +63,7 @@ import android.widget.Toast;
 
 import com.chen.mail.ConversationListContext;
 import com.chen.mail.MailLogService;
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.analytics.Analytics;
 import com.chen.mail.analytics.AnalyticsUtils;
 import com.chen.mail.browse.ConfirmDialogFragment;

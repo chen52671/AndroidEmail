@@ -19,7 +19,7 @@
     <!-- List of content provider uris for  -->
     <string-array name="account_providers" translatable="false">
         <!-- mock account list -->
-        <item>content://com.android.mail.mockprovider/accounts</item>
+        <item>content://com.chen.mail.mockprovider/accounts</item>
     </string-array>
 
 </resources>

@@ -25,7 +25,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.providers.Message;
 import com.chen.mail.providers.UIProvider;
 import com.chen.mail.utils.LogUtils;

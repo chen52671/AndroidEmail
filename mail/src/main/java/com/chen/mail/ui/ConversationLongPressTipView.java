@@ -16,7 +16,7 @@
 
 package com.chen.mail.ui;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.analytics.Analytics;
 import com.chen.mail.browse.ConversationCursor;
 import com.chen.mail.preferences.MailPrefs;

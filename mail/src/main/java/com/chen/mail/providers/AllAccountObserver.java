@@ -28,7 +28,7 @@ import android.database.DataSetObserver;
  * {@link #onChanged(Account[])} when the list of Accounts changes. Initializing the object
  * registers with the observer with the {@link AccountController} provided.
  * The object will then begin to receive {@link #onChanged(Account[])} till {@link
- * #unregisterAndDestroy()} is called. <p> To implement an {@link com.android.mail.providers
+ * #unregisterAndDestroy()} is called. <p> To implement an {@link com.chen.mail.providers
  * .AllAccountObserver}, you need to implement the {@link #onChanged(Account[])} method.
  */
 public abstract class AllAccountObserver extends DataSetObserver {

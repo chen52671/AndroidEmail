@@ -30,7 +30,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.browse.ConversationViewAdapter.MessageHeaderItem;
 import com.chen.mail.providers.Attachment;
 import com.chen.mail.providers.Message;

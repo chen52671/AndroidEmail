@@ -86,7 +86,7 @@ import android.widget.TextView;
 import com.chen.ex.chips.recipientchip.DrawableRecipientChip;
 import com.chen.ex.chips.recipientchip.InvisibleRecipientChip;
 import com.chen.ex.chips.recipientchip.VisibleRecipientChip;
-import com.android.mail.R;
+import com.chen.mail.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

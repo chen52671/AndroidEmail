@@ -1,4 +1,4 @@
-package com.android.mail;
+package com.chen.mail;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

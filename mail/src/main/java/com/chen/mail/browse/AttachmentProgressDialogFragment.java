@@ -22,7 +22,7 @@ import android.app.ProgressDialog;
 import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import com.android.mail.R;
+import com.chen.mail.R;
 import com.chen.mail.providers.Attachment;
 import com.chen.mail.providers.UIProvider.AttachmentColumns;
 import com.chen.mail.providers.UIProvider.AttachmentState;

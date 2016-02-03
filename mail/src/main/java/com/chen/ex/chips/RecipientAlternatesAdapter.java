@@ -36,7 +36,7 @@ import android.widget.TextView;
 
 import com.chen.ex.chips.BaseRecipientAdapter.DirectoryListQuery;
 import com.chen.ex.chips.BaseRecipientAdapter.DirectorySearchParams;
-import com.android.mail.R;
+import com.chen.mail.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

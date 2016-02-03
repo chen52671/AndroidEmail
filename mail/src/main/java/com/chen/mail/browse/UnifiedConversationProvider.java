@@ -24,7 +24,7 @@ import java.lang.Override;
 public class UnifiedConversationProvider extends ConversationProvider {
     // The authority of our conversation provider (a forwarding provider)
     // This string must match the declaration in AndroidManifest.xml
-    private static final String sAuthority = "com.android.mail.conversation.provider";
+    private static final String sAuthority = "com.chen.mail.conversation.provider";
 
     @Override
     protected String getAuthority() {
