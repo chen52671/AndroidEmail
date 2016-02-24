@@ -24,7 +24,7 @@ import com.chen.email.activity.setup.AccountSettings;
 
 public class EmailAccountCacheProvider extends MailAppProvider {
     // Content provider for Email
-    private static final String sAuthority = "com.android.email2.accountcache";
+    private static final String sAuthority = "com.chen.email2.accountcache";
     /**
      * Authority for the suggestions provider. This is specified in AndroidManifest.xml and
      * res/xml/searchable.xml.

@@ -52,7 +52,7 @@
         android:supportsRtl="false" >
         <!-- Enable search in all activities -->
         <meta-data android:name="android.app.default_searchable"
-            android:value="com.android.email2.ui.MailActivityEmail"
+            android:value="com.chen.email2.ui.MailActivityEmail"
             tools:replace="android:value"/>
         <activity
             android:name=".activity.ComposeActivityEmail"
@@ -313,7 +313,7 @@
         <!-- additional activities -->
 
         <provider
-            android:authorities="com.android.email2.conversation.provider"
+            android:authorities="com.chen.email2.conversation.provider"
             android:label="@string/conversation_content_provider"
             android:exported="true"
             android:name="com.chen.mail.browse.EmailConversationProvider" >
@@ -321,7 +321,7 @@
         </provider>
 
         <provider
-            android:authorities="com.android.email2.accountcache"
+            android:authorities="com.chen.email2.accountcache"
             android:label="@string/account_cache_provider"
             android:exported="true"
             android:name="com.chen.mail.providers.EmailAccountCacheProvider" >
